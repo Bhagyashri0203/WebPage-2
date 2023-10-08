@@ -114,3 +114,42 @@ footer .copy{
     text-align: right;
 }
 /* Footer Section End*/
+/*Meadua Queries Start*/
+@media screen and (max-width:991px) {
+.tophead, footer{
+    height: auto;
+    padding: 10px;
+}
+.tophead ul li{
+    display: block;
+}
+header, nav{
+    text-align: center;
+    padding: 0px 10px;
+}
+section{
+    padding: 0px 0px 0px 10px;
+}
+}
+@media screen and (max-width:767px) {
+    section main, section aside{
+        float: none;
+        width: 100%;
+        padding: 0px;
+    }
+    footer .links, footer .follow, footer .copy{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (mac-width:575px) {
+    header{
+        line-height: normal;
+    }
+    header h1, header h3{
+        display: block;
+    }
+    
+}
+/*Meadua Queries End*/
